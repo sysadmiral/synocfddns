@@ -1,3 +1,5 @@
+> PLEASE NOTE: This version of this script has been tweaked to accept an API_TOKEN in place of USERNAME and API_KEY
+
 A simple script update CloudFlare DDNS for Synology NAS. This script can be integrated into Synology NAS UI.
 It largely refers to [official CloudFlare's API example for Python](https://raw.githubusercontent.com/cloudflare/python-cloudflare/master/examples/example_update_dynamic_dns.py)
 

@@ -81,7 +81,7 @@ if __name__ == '__main__':
     host_name, zone_name = dns_name.split('.', 1)
     ip_address_type = 'AAAA' if ':' in ip_address else 'A'
 
-    cf = CloudFlare.CloudFlare(email=email, token=api_key)
+    cf = CloudFlare.CloudFlare(token=api_key)
 
     # grab the zone identifier
     try:
