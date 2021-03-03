@@ -1,0 +1,4 @@
+[Master]
+init-hook='sys.path = ["."] + sys.path'
+disable =
+  line-too-long
